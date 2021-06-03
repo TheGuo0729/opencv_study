@@ -15,7 +15,6 @@ def MotionFilter(img, s=3):
     p = np.zeros((x+2, y+2, 3))
     p[1:x+1, 1:y+1] = out
 
-
     for i in range(x-s+1):
         for j in range(y-s+1):
             for k in range(z):
